@@ -1,5 +1,5 @@
 <?php
-
+    $corescolhida = $_REQUEST['corescolhida']
 ?>
 
 <!DOCTYPE html>
