@@ -6,7 +6,7 @@
 
         // Construtor
 
-        public function __construct($nome, $preco, $quantidade = 0){
+        public function __construct($nome, $preco = 0, $quantidade = 0){
             $this->Nome = $nome;
             $this->Preco = $preco;
             $this->Quantidade = $quantidade;
