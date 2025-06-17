@@ -22,24 +22,24 @@
         }
         
         public function getNome(){
-            return $this->Nome;
+            return 'O Nome do Aluno é: ' . $this->Nome;
         }
 
         public function getMedia(){
             $nota1 = $this->getNota1();
             $nota2 = $this->getNota2();
             $Media = ($nota1+ $nota2) / 2;
-            return $Media;
+            return 'A média do aluno foi: ' . $Media;
             
         }
 
         public function verificarSituacao(){
             $media = $this->getMedia();
             if ($media >= 7) {
-                echo 'Aprovado!';
+                echo 'o Aluno foi Aprovado!';
             }
             else{
-                echo 'Reprovado!';            
+                echo 'o Aluno foi Reprovado!';            
             }
         }
         
